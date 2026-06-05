@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>aish-coofee</title>
+<title>Coffee Background</title>
 <style>
   .root{
     --muted: #8a7355;
@@ -89,10 +89,10 @@
 <div class="content">
   <div>
     <h1>BUY ME A COFFEE</h1>
-    <p>You love me right?</p>
+    <p>you love me right?</p>
     <p>show me 👀</p>
 
-    <a class="btn" href="https://upi.pe/aishwaryanachiyar8@oksbi?pn=Aishwarya+Nachiyar+S" target="_blank">
+    <a class="btn" href="https://upi.pe/aishwaryanachiyar8@oksbi?pn=Aishwarya+Nachiyar+S" target="_blank" rel="noopener">
       ☕ Buy me a coffee
     </a>
 
@@ -102,7 +102,7 @@
 
 <script>
   const container = document.getElementById('emojiContainer');
-  const emojiCount = 40; 
+  const emojiCount = 35; 
   const emojis = ['☕', '🥨', '🥐', '🥖','🍪', '🍩','☕']; 
 
   for (let i = 0; i < emojiCount; i++) {
@@ -112,11 +112,12 @@
     
     span.innerText = emojis[Math.floor(Math.random() * emojis.length)];
       
-    span.style.left = Math.random() * 100 + '%';
+    span.style.left = Math.random() * 90 + 5+ '%';
+   
     
-    const duration = Math.random() * 12 + 10; 
+    const duration = Math.random() * 10 + 8; 
     span.style.animationDuration = duration + 's';
-    span.style.animationDelay = Math.random() * 3 + 's';
+    span.style.animationDelay = Math.random() * 5 + 's';
     
     span.style.fontSize = (Math.random() * 1.5 + 1) + 'rem';
 
